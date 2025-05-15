@@ -1,7 +1,7 @@
-package com.example.noise.shader;
+package com.yousefonweb.noise.shader;
 
-import com.example.noise.Noise;
-import com.example.noise.gl.GLUtil;
+import com.yousefonweb.noise.Noise;
+import com.yousefonweb.noise.gl.GLUtil;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

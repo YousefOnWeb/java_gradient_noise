@@ -1,4 +1,4 @@
-package com.example.noise;
+package com.yousefonweb.noise;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

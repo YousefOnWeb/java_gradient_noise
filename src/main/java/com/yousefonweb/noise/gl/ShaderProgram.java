@@ -1,4 +1,4 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -102,7 +102,7 @@ public class ShaderProgram {
             GLUtil.glDeleteProgram(programId);
             programId = 0;
         }
-        // Optional: if ShaderProgram owns the shaders
+        // maybe consider: if ShaderProgram owns the shaders:
         // if (vertexShader != null) vertexShader.destroy();
         // if (fragmentShader != null) fragmentShader.destroy();
     }

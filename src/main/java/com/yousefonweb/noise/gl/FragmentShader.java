@@ -1,6 +1,6 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
-// GLUtil now provides GL_FRAGMENT_SHADER directly from GL20
+// GLUtil provides GL_FRAGMENT_SHADER directly from GL20 so following import no longer needed
 // import org.lwjgl.opengl.GL20;
 
 public class FragmentShader extends Shader {

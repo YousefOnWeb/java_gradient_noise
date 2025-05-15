@@ -48,3 +48,5 @@ hs_err_pid*
 !.vscode/tasks.json
 !.vscode/extensions.json
 
+/generate_prompt.py
+/java_noise_lib_project.md

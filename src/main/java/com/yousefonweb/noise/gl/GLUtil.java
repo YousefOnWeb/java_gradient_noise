@@ -1,4 +1,4 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;

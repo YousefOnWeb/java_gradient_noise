@@ -1,4 +1,4 @@
-package com.example.noise;
+package com.yousefonweb.noise;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package com.example.noise;
+package com.yousefonweb.noise;
 
-import static com.example.noise.NoiseConstants.*;
+import static com.yousefonweb.noise.NoiseConstants.*;
 
 public class SimplexNoise {
 
@@ -8,7 +8,7 @@ public class SimplexNoise {
     private static final double DEFAULT_PERSISTENCE = 0.5;
     private static final double DEFAULT_LACUNARITY = 2.0;
 
-    // Simplex noise 2D - based on perlin.py SimplexNoise.noise2
+    // Simplex noise 2D
     private static double noise2(double x, double y, PermutationTable permTable) {
         double n = 0.0;
         double s = (x + y) * F2;
@@ -57,7 +57,7 @@ public class SimplexNoise {
         return 70.0 * n; // Scale to cover [-1, 1]
     }
 
-    // Simplex noise 3D - based on perlin.py SimplexNoise.noise3
+    // Simplex noise 3D
     private static double noise3(double x, double y, double z, PermutationTable permTable) {
         double n = 0.0;
         double s = (x + y + z) * F3;

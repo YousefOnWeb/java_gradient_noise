@@ -1,4 +1,4 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
 public class GLSLException extends RuntimeException {
     public GLSLException(String message) {

@@ -1,4 +1,4 @@
-package com.example.noise.shader;
+package com.yousefonweb.noise.shader;
 
 public class ShaderNoiseResources {
 	public static final String SHADER_NOISE_GLSL = """

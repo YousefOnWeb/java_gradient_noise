@@ -1,6 +1,6 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
-// GLUtil now provides GL_VERTEX_SHADER directly from GL20
+// GLUtil provides GL_VERTEX_SHADER directly from GL20 next import no longer needed
 // import org.lwjgl.opengl.GL20; 
 
 public class VertexShader extends Shader {

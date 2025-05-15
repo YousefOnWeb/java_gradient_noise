@@ -1,4 +1,4 @@
-package com.example.noise.gl;
+package com.yousefonweb.noise.gl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,7 +50,7 @@ public abstract class Shader {
         compileFlatLogic();
     }
 
-    // Corresponds to Python's _compile, less used now that compileFlat is preferred
+    // less used that compileFlat is preferred
     protected void compileSelf() { 
         if (shaderId != 0 || compiling) return;
         compiling = true;
@@ -97,7 +97,6 @@ public abstract class Shader {
         }
     }
 
-    // Python's attachTo with s_tag logic
     protected void attachToRecursive(int programHandle, long processingTag) {
         if (this.instanceTag == processingTag) return;
         this.instanceTag = processingTag;
