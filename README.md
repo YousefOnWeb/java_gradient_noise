@@ -184,6 +184,7 @@ public class App
 ```
 
 If you know what you are doing, you can now start working on your project that uses the ``noise`` package.
+
 If you want to first try/see examples of the noise package in use, **replace the content of the above ``App.java`` with the following:**
 (the following is a quick-and-dirty, but a bit comprehensive and good demonstration of the ``noise`` package. It consists of eight different demos for eight different features.)
 
