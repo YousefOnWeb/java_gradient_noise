@@ -46,13 +46,13 @@ This guide will walk you through setting up a minimal Java Maven project to use 
 
 2. **Apache Maven:** A build automation tool. Ensure it's installed and configured in your system's PATH.
 
-3. **The Java Noise Library (noise_java_project):** You need to have the Java Noise Package itself. Since it's not on a public Maven repository, you'll typically build it from its source (java_noise_lib_project.md describes its structure) and install it into your local Maven repository. To do this, navigate to the root directory of the noise_java_project (where its pom.xml is located) and run:
+3. **The Java Noise Library (java_gradient_noise):** You need to have ``java_gradient_noise`` itself. Since it's not on a public Maven repository, you'll typically build it from its source and install it into your local Maven repository. To do this, navigate to the root directory of the java_gradient_noise (where its pom.xml is located) and run:
 
    ```
    mvn clean install
    ```
 
-   This will make the library available for other local Maven projects. The library's Maven coordinates are assumed to be:
+   This will make the library available for other local Maven projects on your machine. The library's Maven coordinates are assumed to be:
 
    - GroupId: ``com.yousefonweb.noise``
    - ArtifactId: ``noise-lib``
